@@ -1,4 +1,5 @@
 # AA273-ADS-B-EKF
+## Abstract
 The ability to estimate aircraft position and velocity
 is vital for safe and effective air traffic operations and
 management. With the emergence of the Automatic Dependent
@@ -22,4 +23,9 @@ ADS-B only does not perform as well as ADS-B with control input
 information from UHARS, but manages to track the aircraft for
 prolonged trajectories.
 
+ 
 
+![https://github.com/mwdacus/AA273-ADS-B-EKF/blob/main/video/animation_9_11.gif](https://github.com/Your_Repository_Name/Your_GIF_Name.gif)
+*Portion of C-12J Flight Path with the UHARS data, ADS-B Data, and the EKF Estimated Solution*
+
+For further details about the project and the various problem formulations using Extended Kalman Filtering (EKF), please see the paper found in `paper` folder.
